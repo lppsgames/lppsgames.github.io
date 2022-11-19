@@ -2,7 +2,7 @@
 <div id="container">
   <iframe id="game" src="https://lppsgames.repl.co/Among%20Us%20(online).html"></iframe>
   <div id="stuff">
-    <button onclick="fullscreen();" class="button">Make game fullscreen.  (esc to exit)</button>
+    <button onclick="fullscreen();" class="button">Make game fullscreen.  (or click f)</button>
   <div class="info">Among Us (online)</div
   <div class="error"></div>
 </div>
@@ -14,7 +14,7 @@
     element.classList.toggle("fullscreen");
   }
   
-  Mousetrap.bind('esc', function(e) {
+  Mousetrap.bind('f', function(e) {
   fullscreen();
 });
 </script>
